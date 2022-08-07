@@ -144,7 +144,7 @@ def convert_from_bib(myline):
     else:
         entry_info = myentry_dict["title"]
 
-    entry_info += f"[[bibtex]]({myline})"
+    entry_info += f"[[bibtex]({myline})]"
     return entry_info
 
 itemize_counter = 0
