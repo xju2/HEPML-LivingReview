@@ -23,7 +23,7 @@ The purpose of this note is to collect references for modern machine learning as
 
         * [The Machine Learning Landscape of Top Taggers](https://arxiv.org/abs/1902.09914) [[DOI](https://doi.org/10.21468/SciPostPhys.7.1.014)]
         * [Dealing with Nuisance Parameters using Machine Learning in High Energy Physics: a Review](https://arxiv.org/abs/2007.09121)
-        * [Graph neural networks in particle physics](https://arxiv.org/abs/2007.13681) [[DOI](https://doi.org/{10.1088/2632-2153/abbf9a)]
+        * [Graph neural networks in particle physics](https://arxiv.org/abs/2007.13681) [[DOI](https://doi.org/10.1088/2632-2153/abbf9a)]
         * [A Review on Machine Learning for Neutrino Experiments](https://arxiv.org/abs/2008.01242) [[DOI](https://doi.org/10.1142/S0217751X20430058)]
         * [Generative Networks for LHC events](https://arxiv.org/abs/2008.08558)
         * [Parton distribution functions](https://arxiv.org/abs/2008.12305)
@@ -117,7 +117,7 @@ The purpose of this note is to collect references for modern machine learning as
             * [Neural Network-based Top Tagger with Two-Point Energy Correlations and Geometry of Soft Emissions](https://arxiv.org/abs/2003.11787) [[DOI](https://doi.org/10.1007/JHEP07(2020)111)]
             * [Probing triple Higgs coupling with machine learning at the LHC](https://arxiv.org/abs/2005.11086)
             * [Casting a graph net to catch dark showers](https://arxiv.org/abs/2006.08639) [[DOI](https://doi.org/10.21468/SciPostPhys.10.2.046)]
-            * [Graph neural networks in particle physics](https://arxiv.org/abs/2007.13681) [[DOI](https://doi.org/{10.1088/2632-2153/abbf9a)]
+            * [Graph neural networks in particle physics](https://arxiv.org/abs/2007.13681) [[DOI](https://doi.org/10.1088/2632-2153/abbf9a)]
             * [Distance-Weighted Graph Neural Networks on FPGAs for Real-Time Particle Reconstruction in High Energy Physics](https://arxiv.org/abs/2008.03601) [[DOI](https://doi.org/10.3389/fdata.2020.598927)]
             * [Supervised Jet Clustering with Graph Neural Networks for Lorentz Boosted Bosons](https://arxiv.org/abs/2008.06064) [[DOI](https://doi.org/10.1103/PhysRevD.102.075014)]
             * [Track Seeding and Labelling with Embedded-space Graph Neural Networks](https://arxiv.org/abs/2007.00149)
@@ -580,7 +580,7 @@ The purpose of this note is to collect references for modern machine learning as
 
     *  Recasting
 
-        * [The BSM-AI project: SUSY-AI--generalizing LHC limits on supersymmetry with machine learning](https://doi.org/{10.1140/epjc/s10052-017-4814-9)
+        * [The BSM-AI project: SUSY-AI--generalizing LHC limits on supersymmetry with machine learning](https://doi.org/10.1140/epjc/s10052-017-4814-9)
         * [Accelerating the BSM interpretation of LHC data with machine learning](https://arxiv.org/abs/1611.02704) [[DOI](https://doi.org/10.1016/j.dark.2019.100293)]
         * [Bayesian Neural Networks for Fast SUSY Predictions](https://arxiv.org/abs/2007.04506) [[DOI](https://doi.org/10.1016/j.physletb.2020.136041)]
 
@@ -705,7 +705,7 @@ The purpose of this note is to collect references for modern machine learning as
         * [A Novel Scenario in the Semi-constrained NMSSM](https://arxiv.org/abs/2002.05554) [[DOI](https://doi.org/10.1007/JHEP06(2020)078)]
         * [Getting High: High Fidelity Simulation of High Granularity Calorimeters with High Speed](https://arxiv.org/abs/2005.05334)
         * [AI-based Monte Carlo event generator for electron-proton scattering](https://arxiv.org/abs/2008.03151)
-        * [DCTRGAN: Improving the Precision of Generative Models with Reweighting](https://arxiv.org/abs/2009.03796) [[DOI](https://doi.org/{10.1088/1748-0221/15/11/p11004)]
+        * [DCTRGAN: Improving the Precision of Generative Models with Reweighting](https://arxiv.org/abs/2009.03796) [[DOI](https://doi.org/10.1088/1748-0221/15/11/p11004)]
         * [GANplifying Event Samples](https://arxiv.org/abs/2008.06545)
         * [Graph Generative Adversarial Networks for Sparse Data Generation in High Energy Physics](https://arxiv.org/abs/2012.00173)
         * [Simulating the Time Projection Chamber responses at the MPD detector using Generative Adversarial Networks](https://arxiv.org/abs/2012.04595)
@@ -929,7 +929,7 @@ The purpose of this note is to collect references for modern machine learning as
         * [Reweighting with Boosted Decision Trees](https://arxiv.org/abs/1608.05806) [[DOI](https://doi.org/10.1088/1742-6596/762/1/012036)]
         * [Neural Networks for Full Phase-space Reweighting and Parameter Tuning](https://arxiv.org/abs/1907.08209) [[DOI](https://doi.org/10.1103/PhysRevD.101.091901)]
         * [Approximating Likelihood Ratios with Calibrated Discriminative  Classifiers](https://arxiv.org/abs/1506.02169)
-        * [DCTRGAN: Improving the Precision of Generative Models with Reweighting](https://arxiv.org/abs/2009.03796) [[DOI](https://doi.org/{10.1088/1748-0221/15/11/p11004)]
+        * [DCTRGAN: Improving the Precision of Generative Models with Reweighting](https://arxiv.org/abs/2009.03796) [[DOI](https://doi.org/10.1088/1748-0221/15/11/p11004)]
         * [Neural Conditional Reweighting](https://arxiv.org/abs/2107.08979)
 
     *  BSM
