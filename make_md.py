@@ -86,7 +86,7 @@ def convert_from_bib(myline):
                 myentry_dict["eprint"] = myentry_dict["eprint"][1:]
                 pass
         elif "doi" in first_entry:
-            myentry_dict["doi"] = entry_cleaned.split("doi")[1].split("=")[1].split("\n")[0].replace("\"","").replace(",","").replace("\'","").replace(" ","")
+            myentry_dict["doi"] = entry_cleaned.split("doi")[1].split("=")[1].split("\n")[0].replace("\"","").replace(",","").replace("\'","").replace(" ","").replace("{","").replace("}","")
         elif "url" in first_entry:
             myentry_dict["url"] = entry_cleaned.split("url")[1].split("=")[1].split("\n")[0].replace("\"","").replace(",","").replace("\'","").replace(" ","")
         else:
@@ -126,20 +126,26 @@ def convert_from_bib(myline):
         print(myline)
         print(myentry)
         print("We are in trouble ! ")
+    
+    entry_info = myline
     if "eprint" in myentry_dict:
         paper=""
         if "doi" in myentry_dict:
             paper=f" [[DOI](https://doi.org/{myentry_dict['doi']})]"
         elif "url" in myentry_dict:
             paper=f" [[url]({myentry_dict['url']})]"
-        return "["+myentry_dict["title"]+"](https://arxiv.org/abs/"+myentry_dict["eprint"]+")"+paper
+        else:
+            pass
+        entry_info = "["+myentry_dict["title"]+"](https://arxiv.org/abs/"+myentry_dict["eprint"]+")"+paper
     elif "doi" in myentry_dict:
-        return "["+myentry_dict["title"]+"](https://doi.org/"+myentry_dict["doi"]+")"
+        entry_info = "["+myentry_dict["title"]+"](https://doi.org/"+myentry_dict["doi"]+")"
     elif "url" in myentry_dict:
-        return "["+myentry_dict["title"]+"]("+myentry_dict["url"]+")"
+        entry_info = "["+myentry_dict["title"]+"]("+myentry_dict["url"]+")"
     else:
-        return myentry_dict["title"]
-    return myline
+        entry_info = myentry_dict["title"]
+
+    entry_info += f"[[bibtex]]({myline})"
+    return entry_info
 
 itemize_counter = 0
 for line in myfile:
